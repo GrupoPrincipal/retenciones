@@ -1,0 +1,54 @@
+/** login-begin */
+
+body.login{
+    background: #FFFFFF;
+}
+
+img.login-logo {
+	max-width: 260px;
+}
+
+/** login-end */
+
+/** logo-app-begin */
+
+img.logo-default {
+    max-width: 180px;
+    max-height: 52px;
+}
+.page-header.navbar .page-logo .logo-default {
+    margin: 10px 10px 0;
+}
+
+/** logo-app-end */
+
+.medium-icons{
+	font-size: 18px;
+}
+
+.boton-agregar-registro{
+	margin-left: 10px;
+	float: right;
+}
+
+table.fancy-small-table{
+	width: 350px !important;
+}
+
+.fancybox-overlay {
+    z-index: 99999 !important;
+}
+
+div.image-preview{
+	width: 180px;
+	height: 120px;
+	cursor: pointer;
+	border: 1px solid #c2cad8;
+	border-radius: 4px;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}

@@ -1,0 +1,29 @@
+
+
+.ext-box{
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    top: 0;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.39);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: table;
+}
+.int-box{
+    vertical-align: middle;
+    display: table-cell;
+}
+.filtros div{
+    border: solid;
+    float: left;
+    display: block;
+    box-sizing: border-box;
+    border-width: 1px;
+    padding: 5px;
+    border-radius: 100% !important;
+}
+
+

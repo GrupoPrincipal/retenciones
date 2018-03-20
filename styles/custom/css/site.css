@@ -1,0 +1,258 @@
+@charset "UTF-8";
+
+.head{
+    background-image: url("../../images/alianzas.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: 50% -186.152px;
+}
+
+body{
+	margin: 0;
+    padding: 0;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    font-family: 'cinesu', Tahoma, Geneva;
+}
+
+.header{
+	width: 100%;
+    margin-top: 0;
+    position: relative;
+}
+.nav{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.nav .list{
+    margin: 0;
+    padding: 0;
+    margin-left: 0.5%;
+}
+
+.nav .list .item{
+    cursor: pointer;
+    list-style: none;
+    margin-right: 30px;
+    line-height: 30px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 1px 2px;
+    text-decoration: none;
+}
+
+.nav .list .item:hover{
+    color: #277cea;
+    border-bottom: solid;
+}
+.nav .list .item:hover > a{
+    color: #277cea;
+}
+.nav .list .item a{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: #FFF;
+    text-decoration: none;
+}
+.dropdown ul li:hover{
+    
+}
+.dropdown-menu>li.active:hover>a, .dropdown-menu>li.active>a, .dropdown-menu>li:hover>a{
+    background-color: #277cea !important;
+    color: #fff !important;
+    border: none !important;
+}
+.dropdown-menu li a{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: #666d70;
+    font-size: 16px;
+}
+
+.head{
+    color: #FFF;
+    width: 100%;
+    height: 100px;
+    display: block;
+    clear: both;
+    position: relative;
+    margin: 0 !important;
+}
+.logo-site{
+    max-width: 126px;
+    margin-top: 20px;
+}
+.content-title{
+    display: -webkit-inline-box;
+    height: inherit;
+    line-height: 55px;
+    box-sizing: border-box;
+    margin-left: 78px;
+}
+.site-title{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+
+.select-site select{
+    
+}
+.opci-slider{
+    border: solid;
+    border-color: #86BDE8;
+    border-width: 1px;
+    margin-bottom: 2px;
+    text-align: center;
+    background: #00639E;
+    color: #86BDE8;
+    font-size: 21px;
+    font-weight: 500;
+    height: 130px;
+    box-shadow: 1px 1px 47px #424242 inset;
+    box-sizing: border-box;
+    padding-top: 42px;
+    cursor: pointer;
+}
+.footer{
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: 50% -186.152px;
+}
+.movie-list{
+    width: 200px;
+    height: 350px;
+    float: left;
+    margin-left: 10px;
+    background-color: rgba(51, 51, 51, 0.32);
+    margin-bottom: 10px;
+    border-radius: 5px;
+    cursor:pointer;
+}
+.movie-list:hover .descripcion-list{
+    width: 200px;
+    padding: 8px;
+} 
+.movie-img{
+    width: 200px;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.descripcion-list{
+    background-color: rgba(250, 252, 251, 0.72);
+    position: relative;
+    width: 0;
+    overflow: hidden;
+    float: right;
+    -webkit-transition: width 0.5s; /* Safari */
+    transition: width 0.5s;
+    height: 250px;
+    text-align: justify;
+    box-sizing: border-box;;
+}
+
+.movie-name{
+    border: solid;
+    border-width: 1px;
+    background-color: #fafafa;
+    height: 35px;
+    box-sizing: border-box;
+    padding: 5px;
+    text-align: center;
+    font-family: verdana;
+    box-shadow: 0px 1px 15px #000 inset;
+}
+.movie-votos{
+    height: 30px;
+    text-align: center;
+    font-size: 19px;
+    color: #1b3785;
+}
+.movie-votar{
+    height: 35px;
+    font-size: 25px;
+    text-align: center;
+    color: #00639e;
+    -webkit-transition: font-size 0.3s; /* Safari */
+    transition: font-size 0.3s;
+}
+.movie-votar:hover{
+    font-size:27px;
+    color:#0165b1;
+}
+.ganad-movie{
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border:solid;
+    border-width: 1px;
+    border-color:#000;
+}
+.ganad-desc{
+    position: relative;
+    top: 288px;
+    height: 100px;
+    background-color: rgba(0, 99, 158, 0.77);
+    box-sizing: border-box;
+}
+.ganad-movie p{
+    padding: 5px;
+    height: 73%;
+    position: relative;
+    top: -21px;
+    color: #fff;
+}
+.ticket{
+    background-image: url("../../../img/ticket.png");
+        height: 430px;
+    width: 271px;
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: auto;
+    text-align: center
+    
+}
+.nombre{
+    text-align: center;
+    font-size: 23px;
+    box-sizing: border-box;
+    color: #002e98;
+    text-transform: capitalize;
+    margin-top: 40px;
+    clear: both;
+}
+.nombre2{
+    text-align: center;
+    font-size: 23px;
+    box-sizing: border-box;
+    color: #002e98;
+    text-transform: capitalize;
+    clear: both;
+}
+.entrada{
+    text-align: center;
+    height: 50px;
+    font-size: 17px;
+    margin-top: 3px;
+    box-sizing: border-box;
+    color: #002e98;
+    text-transform: capitalize;
+    padding-top: 15px;
+    font-weight: 600;
+    height: 282px;
+    box-sizing: border-box;
+    padding: 15px 20px 0px 20px
+}
+.definicion{
+    color: #356fb9;
+}
+.titulo-entrad{
+    color: #666;
+}

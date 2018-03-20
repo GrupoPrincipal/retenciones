@@ -1,0 +1,13 @@
+
+#data-table tbody tr{
+    cursor: :pointer;
+}
+#data-table tbody tr:nth-child(2n+1){
+    background: #e6e6e6;
+}
+#data-table tbody tr:hover{
+    background: #fafcfb;
+}
+.pointer{
+    cursor:pointer;
+}
